@@ -98,7 +98,7 @@ def main(page: ft.Page):
     )
 
     #add_button = ft.Button(text='ADD',on_click=add_product)
-    add_button = ft.Button("Click Me", on_click=add_product)
+    add_button = ft.Button("Добавить товар", on_click=add_product)
 
     filter_buttons = ft.Row(
         [
